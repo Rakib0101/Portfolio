@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+/* Topbar Section */
+.topbar{
+    background: #2EA3F2;
+    color: #FFFFFF;
+}
+.contact-info{
+    display: flex;
+    padding: 10px 0;
+}
+.email, .social-media{
+    padding-left: 10px;
+}
+.social-media ul{
+    display: flex;
+    list-style: none;
+}
+.social-media ul> li{
+    padding-left: 20px;
+}
+
+/* Main Menu Section */
+.navigation{
+    box-shadow: 0px 1px 0 #CBCBCB;
+}
+.main-menu{
+    display: flex;
+}
+.logo-area{
+    width: 30%;
+}
+.logo-area a{
+    text-decoration: none;
+    color: #2EA3F2;
+    text-transform: uppercase;
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+}
+.menu-area{
+    width: 70%;
+}
+.menu-area ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    height: 60px;
+    line-height: 60px;
+}
+.menu-area ul li {
+    padding-left: 20px;
+}
+.menu-area ul li a{
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    color: #CBCBCB;
+}
+.menu-area ul li a:hover, .menu-area ul li .active {
+    color: #2EA3F2;
+}
+
+/* Hero Section */
+.hero-section{
+    background: url(./images/header_section_bg.jpg);
+    background-size: cover;
+    background-position: top right;
+    height: 90vh;
+}
+.intro{
+    display: flex;
+}
+.left{
+    width: 60%;
+}
+h1{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    background: -webkit-linear-gradient(#003782, #5aaffa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h4{
+    font-size: 24px;
+    color: #000234;
+    margin-bottom: 30px;
+}
+.button-group{
+    display: flex;
+}
+.btn-01 a, .btn-02 a{
+    text-decoration: none;
+    border: 1px solid #000234;
+    margin-right: 20px;
+    padding: 8px 6px;
+    border-radius: 6px;
+}
